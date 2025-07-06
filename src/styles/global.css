@@ -5,3 +5,20 @@
   padding: 40px;
   box-sizing: border-box;
 }
+:root {
+  --primary-color: #0288d1;     /* Azul fuerte para botones */
+  --secondary-color: #4fc3f7;   /* Celeste vibrante para fondos */
+  --background-color: #f5f7fa;  /* Fondo general suave */
+  --text-color: #2e3a59;        /* Gris azulado para textos */
+  --footer-bg: #01579b;         /* Footer elegante oscuro */
+  --white: #ffffff;
+}
+
+/* Tipografía global */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}

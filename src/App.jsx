@@ -6,12 +6,13 @@ import Home from './pages/Home';
 import Destinos from './pages/Destinos';
 import Contacto from './pages/Contacto';
 import About from './pages/About';
-import './styles/global.css';
+
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import './styles/global.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/viajaya-react"> 
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
