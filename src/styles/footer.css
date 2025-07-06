@@ -1,0 +1,8 @@
+.footer {
+  background-color: #62b3ed;  /* mismo celeste que el header */
+  text-align: center;
+  padding: 20px 0;
+  color: #333;
+  font-size: 14px;
+  margin-top: auto;
+}

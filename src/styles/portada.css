@@ -1,0 +1,40 @@
+.portada {
+  position: relative;
+  text-align: center;
+}
+
+.portada .carousel .slide img {
+  height: 400px;
+  object-fit: cover;
+}
+
+.portada-texto {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(126, 210, 255);
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  color: #000000;
+  font-size: 1.8rem;
+}
+
+@media (max-width: 768px) {
+  .portada-texto {
+    font-size: 1.2rem;
+    padding: 0.8rem;
+  }
+
+  .portada .carousel .slide img {
+    height: 250px;
+  }
+}
+
+.portada {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
