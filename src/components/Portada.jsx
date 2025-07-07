@@ -23,6 +23,7 @@ function Portada() {
       </Carousel>
       <div className="portada-texto">
         <h2>¿Cuál es tu próximo destino?</h2>
+        
       </div>
     </section>
   );

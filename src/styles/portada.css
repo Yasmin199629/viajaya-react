@@ -13,7 +13,7 @@
   top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: rgb(99, 171, 238);
+  background-color: rgb(141, 200, 248);
   padding: 1rem 2rem;
   border-radius: 10px;
   color: #000000;
@@ -37,4 +37,19 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
+}
+.portada {
+  background-color: #E0F7FA; /* celeste claro */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.portada-texto {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.5rem;
+  color: #333;
 }
