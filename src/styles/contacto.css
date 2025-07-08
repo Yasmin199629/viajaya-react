@@ -1,7 +1,7 @@
 .contacto {
   width: 100vw;
   min-height: 100vh;
-  background-color:#E0F7FA; 
+  background-color:#cdebf3; 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,7 +9,7 @@
 }
 
 .form-box {
-  background-color:#acbfee;
+  background-color:#ffffff;
   padding: 40px;
   border-radius: 10px;
   max-width: 600px;
@@ -21,6 +21,7 @@
 .form-box h2 {
   font-size: 20px;
   margin-bottom: 20px;
+  background-color: #ffffff;
 }
 
 form {
@@ -32,14 +33,14 @@ form {
 input {
   padding: 12px;
   border: none;
-  background-color: #fefefe;
+  background-color: #d8ebfb;
   border-radius: 5px;
   font-size: 16px;
 }
 
 button {
   padding: 12px;
-  background-color: #8cc3f3;
+  background-color: #2990ea;
   border: none;
   border-radius: 5px;
   font-weight: bold;

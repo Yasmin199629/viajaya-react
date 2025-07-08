@@ -1,5 +1,6 @@
 import { FaMountain, FaWater, FaWineBottle } from "react-icons/fa";
 
+
 function Destacados() {
   return (
     <section className="destacados-section">
@@ -14,16 +15,19 @@ function Destacados() {
             <FaWater className="icono-destacado" />
             <h3>Bariloche</h3>
             <p>Montañas y lagos espectaculares todo el año.</p>
+             <button>Mas informacion</button>
           </div>
           <div className="destacado-card">
             <FaMountain className="icono-destacado" />
             <h3>Cataratas</h3>
             <p>Una de las maravillas naturales del mundo.</p>
+            <button>Mas informacion</button>
           </div>
           <div className="destacado-card">
             <FaWineBottle className="icono-destacado" />
             <h3>Mendoza</h3>
             <p>Destino ideal para amantes del vino y la naturaleza.</p>
+            <button>Mas informacion</button>
           </div>
         </div>
       </div>
