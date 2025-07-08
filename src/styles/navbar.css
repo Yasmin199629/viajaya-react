@@ -38,7 +38,7 @@
 }
 
 .navbar-links a:hover {
-  color: #020101;
+  color: #ffffff;
 }
 
 .navbar-toggle {
@@ -62,7 +62,7 @@
     top: 100%;
     left: 0;
     width: 100%;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 254, 254);
     padding: 1rem;
     transform: translateY(-20px);
     opacity: 0;
@@ -78,10 +78,4 @@
   .navbar-toggle {
     display: flex;
   }
-}
-.container {
-  max-width: 1400px;
-  margin: 0 auto;
-  padding: 40px;
-  box-sizing: border-box;
 }
