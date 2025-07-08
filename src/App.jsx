@@ -12,7 +12,8 @@ import './styles/global.css';
 
 function App() {
   return (
-    <Router basename="/viajaya-react"> 
+    
+    <Router> 
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
