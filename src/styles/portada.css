@@ -39,7 +39,7 @@
   text-align: center;
 }
 .portada {
-  background-color: #E0F7FA; /* celeste claro */
+  background-color: #E0F7FA; 
   min-height: 100vh;
   display: flex;
   flex-direction: column;
