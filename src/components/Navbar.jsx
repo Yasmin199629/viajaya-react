@@ -1,18 +1,11 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/navbar.css';
 
 function Navbar() {
-  
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-  };
-
   return (
     <nav className="navbar">
-      <div className="container">
-        <div className='navbar-logo'></div>
+      <div className="navbar-logo">
         <Link to="/">ViajaYa</Link>
       </div>
       <ul className="navbar-links">
