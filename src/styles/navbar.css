@@ -79,3 +79,11 @@
     display: flex;
   }
 }
+.container {
+  max-width: 1000px;
+  margin: auto;
+  background-color:  rgba(247, 247, 247, 0.632);
+  color: black;
+  font-style: unset;
+  font-family:Arial, Helvetica, sans-serif
+}
